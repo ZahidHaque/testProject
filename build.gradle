@@ -12,7 +12,7 @@ buildscript {
 }
 
 version "0.1"
-group "testproject"
+group "arifvai"
 
 apply plugin:"eclipse"
 apply plugin:"idea"
@@ -62,7 +62,6 @@ dependencies {
     profile "org.grails.profiles:web"
     runtimeOnly "org.glassfish.web:el-impl:2.2.1-b05"
     runtimeOnly "com.h2database:h2"
-    runtimeOnly 'mysql:mysql-connector-java:8.0.32'
     runtimeOnly "org.apache.tomcat:tomcat-jdbc"
     runtimeOnly "javax.xml.bind:jaxb-api:2.3.1"
     runtimeOnly "com.bertramlabs.plugins:asset-pipeline-grails:3.4.7"

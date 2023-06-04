@@ -1,0 +1,173 @@
+shamimahmedius2022@gmail.com
+1@qwertyui
+
+192.168.100.64/26
+
+
+172.107.25.0/22
+sub 1 -> 400 -> 512 -> 2^9
+sub 2 -> 100 -> 128 -> 2^7
+sub 3 -> 30 -> 32 -> 2^5
+sub 4 -> 14 -> 16 -> 2^4
+
+172.107.25.0/23 - 172.107.26.255/23
+   subnet mask -> 255.255.254.0
+   
+172.107.27.0/25 - 172.107.27.127/25
+   subnet mask -> 255.255.255.128
+
+172.107.27.128/27 - 172.107.27.159/27
+   subnet mask -> 255.255.255.224
+   
+172.107.27.160/28 - 172.107.27.175/28
+   subnet mask -> 255.255.255.240
+   
+  *For Connection networks :
+  
+172.107.27.176/30 - 172.107.27.179/30
+   subnet mask -> 255.255.255.252
+   
+172.107.27.180/30 - 172.107.27.183/30
+   subnet mask -> 255.255.255.252
+
+172.107.27.184/30 - 172.107.27.187/30
+   subnet mask -> 255.255.255.252
+   
+172.107.27.188/30 - 172.107.27.191/30
+   subnet mask -> 255.255.255.252
+
+172.107.27.192/30 - 172.107.27.195/30
+   subnet mask -> 255.255.255.252
+   
+   
+   
+   192.168.135.77
+   
+   
+Let’s say we have two tables: TableA and TableB
+
+TableA:-
+id Name
+1  A
+2  B
+3  C
+
+TableB:-
+id2  age
+1    25
+2    30
+4    40
+
+INNER JOIN :-
+SELECT TableA.Name, TableB.age
+FROM TableA
+INNER JOIN TableB
+ON TableA.id = TableB.id2;
+
+Name Age
+A    25
+B    30
+
+LEFT JOIN:-
+SELECT TableA.Name, TableB.age
+FROM TableA
+LEFT JOIN TableB
+ON TableA.id = TableB.id2;
+
+Name Age
+A    25
+B    30
+C    null
+
+An INNER JOIN returns rows when there is a match in both tables. A LEFT JOIN returns all rows from the left table, even if there are no matches in the right table.
+
+
+
+
+
+
+A table is a permanent structure format in a database which takes storage and has its own data. Whereas a view can be explained as a virtual table, which do not have data on its own, it is the result-set of an SQL statement. 
+
+
+A cursor is like a pointer which helps to traverse over the records in a database. It allows to process individual rows returned by a query.
+
+Cursors can be useful when we need to perform row-by-row operations specially in loops. Each time the loop iterates, the cursor will point to the current row.
+
+
+
+
+
+SELECT FirstName, LastName, Gender, Id
+FROM [Users]
+WHERE FirstName = '';
+
+
+
+
+The error basically refers to Data type mismatch. It occurred when trying to convert a "nvarchar" value to an "int" data type. In this case, the nvarchar value is 'a', which cannot be converted to an int because it is not a valid numeric value.
+
+This can be resolved by checking the data before attempting the conversion or by using a conditional statement to handle non-numeric values.
+
+
+
+A COMMIT is a command used to save the changes that are made to the database by a set of query. 
+
+//Example
+BEGIN TRANSACTION;
+INSERT INTO Employees (Name, Age)
+VALUES ('A', 55);
+COMMIT;
+
+After the execution of the commit statement, all changes performed during the transaction will be permanent and visible to other users.
+
+
+
+
+SELECT * FROM [User] WHERE Country = 'UK' AND NOT Postcode LIKE 'DD%';
+
+
+
+I earn as a private tutor. So, I have a student who is in college 2nd year. I teach him ICT. So, I taught him number system, basic theories and HTML quite easily. But when it came to "C programming", my student couldn't grasp it anymore. No matter how many pages of programs we write everyday, he couldn't get a proper picture of what's happening. So that was a problem.
+
+And he didn't have a computer. Then I installed a C/C++ compiler in my phone, and I told him to write in the app. Then he wrote and got some errors and eventually he understood those errors and finally a day came when he could easily write programs without the app in his notes. So, I think writing program in an IDE and then getting error is important towards understanding the concept of programming properly.
+
+
+
+
+
+
+
+azhar@bdjobs.com
+
+
+Zahidul Haque
+Software Engineer
+Department: Exsited
+Joining Date: 01-06-23
+zahidul@webalive.com.au (Teams)
+zahidul@bitmascot.com (Email)
+jira/confluence: zahidul@bitmascot.com
+VPN user: zahidul
+pass: Z@H1DuL@SE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+azhar@bdjobs

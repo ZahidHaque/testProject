@@ -4,7 +4,7 @@
     <meta name="layout" content="main"/>
 </head>
 <body>
-<h1> Bit Mascot, Training Program</h1>
+<h1>  Welcome to Bit Mascot Training Program</h1>
 
 </body>
 </html>
